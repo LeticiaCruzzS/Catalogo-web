@@ -1,0 +1,7 @@
+<header class="topbar">
+  <a href="${pageContext.request.contextPath}/itens" class="brand">Meu Catálogo</a>
+  <div class="user">
+    <span class="hide-sm"><c:out value="${sessionScope.usuarioLogado.nome}"/></span>
+    <a href="${pageContext.request.contextPath}/logout">Sair</a>
+  </div>
+</header>
